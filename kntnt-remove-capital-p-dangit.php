@@ -12,6 +12,8 @@
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
  */
 
+defined( 'ABSPATH' ) || die;
+
 // See http://justintadlock.com/archives/2010/07/08/lowercase-p-dangit
 remove_filter( 'the_title', 'capital_P_dangit', 11 );
 remove_filter( 'the_content', 'capital_P_dangit', 11 );
