@@ -3,9 +3,9 @@
 /**
  * @wordpress-plugin
  * Plugin Name:       Kntnt Remove Capital P Dangit
- * Plugin URI:        https://www.kntnt.com/
+ * Plugin URI:        https://github.com/Kntnt/kntnt-remove-capital-p-dangit
  * Description:       Stops the silly enforced capitiliazation of Wordpress as WordPress.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
@@ -14,7 +14,6 @@
 
 defined( 'ABSPATH' ) || die;
 
-// See http://justintadlock.com/archives/2010/07/08/lowercase-p-dangit
 remove_filter( 'the_title', 'capital_P_dangit', 11 );
 remove_filter( 'the_content', 'capital_P_dangit', 11 );
 remove_filter( 'comment_text', 'capital_P_dangit', 31 );
